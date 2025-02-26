@@ -13,8 +13,8 @@ const Page: FC = () => {
     try {
       await signIn('google')
       // throw new Error('wkwkwkws')
-      // eslint-disable-next-line @typescript-eslint/no-unused-vars
       toast.success('Login successful.')
+      // eslint-disable-next-line @typescript-eslint/no-unused-vars
     } catch (error) {
       // display error message to user
       toast.error('Something went wrong with your login.')
